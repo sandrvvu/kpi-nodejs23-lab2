@@ -1,0 +1,31 @@
+{
+  "name": "laba2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "node .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "npx prettier . --check",
+    "format:fix": "npx prettier . --write",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sandrvvu/kpi-nodejs23-lab2.git"
+  },
+  "author": "sandrvvu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandrvvu/kpi-nodejs23-lab2/issues"
+  },
+  "homepage": "https://github.com/sandrvvu/kpi-nodejs23-lab2#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-sonarjs": "^0.23.0",
+    "husky": "^8.0.3",
+    "prettier": "3.1.1"
+  }
+}
